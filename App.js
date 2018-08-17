@@ -1,3 +1,5 @@
 for(let i=1; i <= 8; i++){
-  console.log("#");
+  for(let x=1; x <= i; x++){
+    console.log("#");
+  }
 }
